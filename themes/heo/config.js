@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '小学的日记长大记得写噢', url: 'https://nepenthes.top' },
-    { title: '不知道你还记得巴金的<<鸟的天堂>>', url: 'http://www.lbx777.com/yw09/ndtt/kewen.htm' }
+    { title: 'Welcome', url: 'https://nepenthes.top' },
+    { title: 'here', url: 'https://nepenthes.top/tag/work' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -15,32 +15,32 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '我的日记',
-  HEO_HERO_TITLE_2: '与自我介绍',
+  HEO_HERO_TITLE_1: 'Watermelon',
+  HEO_HERO_TITLE_2: 'Tangelo',
   HEO_HERO_TITLE_3: 'nepenthes.top',
-  HEO_HERO_TITLE_4: '赛博日记',
-  HEO_HERO_TITLE_5: '完成小学没有坚持的日记',
+  HEO_HERO_TITLE_4: 'Strawberry',
+  HEO_HERO_TITLE_5: 'Pineapple',
   HEO_HERO_TITLE_LINK: 'nepnethes.top',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '大学作品', url: '/tag/作品' },
-  HEO_HERO_CATEGORY_2: { title: '日记随笔', url: '/tag/文字' },
-  HEO_HERO_CATEGORY_3: { title: '建站历程', url: '/tag/建站' },
+  HEO_HERO_CATEGORY_1: { title: 'work', url: '/tag/作品' },
+  HEO_HERO_CATEGORY_2: { title: 'dairy', url: '/tag/文字' },
+  HEO_HERO_CATEGORY_3: { title: 'star', url: '/tag/建站' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
+  HEO_HERO_RECOMMEND_POST_TAG: '',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://images.nepenthes.top/file/d03b2007d99c5464e1116.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    'Hello！I am',
+    '🔍 Sharing and enthusiastic help',
+    '🤝 Specialize in interaction and design ',
+    '🏃 Down-to-earth doer ',
+    '🏠 Smart home expert ',
+    '🤖️ Digital technology enthusiast',
+    '🧱 Team group engine '
   ],
 
   // 个人资料底部按钮
@@ -49,7 +49,7 @@ const CONFIG = {
   HEO_INFO_CARD_URL2: 'https://github.com/ygg683280',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
   HEO_INFO_CARD_URL3: 'nepenthes.top',
-  HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_TEXT3: 'Learn more',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -112,10 +112,10 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_TITLE_1: 'Communication Channel',
+  HEO_SOCIAL_CARD_TITLE_2: 'Join our community for discussions and sharing',
+  HEO_SOCIAL_CARD_TITLE_3: 'Click to join the community',
+  HEO_SOCIAL_CARD_URL: 'https://t.me/+f7wXw4OwdAw3ZTY1',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
